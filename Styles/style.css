@@ -166,6 +166,12 @@ h2 {
   font-size: 1.3rem;
 }
 
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
 @media screen and (min-width: 991px) {
 
   	  body {
@@ -191,4 +197,10 @@ h2 {
         margin-top: 50px;
       }
       
+      
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
     }
